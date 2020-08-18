@@ -1,0 +1,77 @@
+\section{Introduction}
+
+\noindent \textbf{Opening paragraph}
+
+Stars form in clouds of molecular hydrogen that are large (hundreds of light
+years), low density ($\rho \simeq 10^{-24}\rm{g}\ \rm{cm}^{-3}$) ,
+cold ($T \simeq 20 K$), and turbulent, with velocities several times the speed
+of sound, $c_s$, in the
+cloud ($c_s\simeq 0.2 \rm{km}\ \rm{s^{-1}}$).  It is an essential but open problem in astrophysics to uncover the relationship between
+the 
+properties of a molecular cloud (e.g. density and velocity distributions)
+and the properties of the stellar population it produces (e.g.  star formation
+rate and mass distribution).  The current proposal
+will measure the relationship between the velocity of a supersonic shock and the
+distribution of the resulting density fluctuations induced by the post-shock
+turbulence, $f(\rho)$.  This is an essential component
+in understanding the relation between the velocity distribution in a molecular
+cloud, which is easy to measure with telescopes, and its potential to form stars, which impacts
+many aspects of the host galaxy.\citep{Padoan02}
+
+\noindent \textbf{Scientific Motivation} 
+Molecular clouds are barely held together by gravity. Their gravitational
+energy, which will cause the cloud to collapse, is balanced
+by kinetic, magnetic, and thermal energies, which all support against the
+collapse.  
+Interacting shocks within the cloud cause density enhancements orders of
+magnitude larger than the mean density of the cloud.  Some fraction
+of these small, dense regions can have large enough gravitational binding
+energies
+to decouple from the turbulence,  and ultimately become stars.  The proposed
+campaign will examine these post-shock density enhancements.
+
+The fraction
+of a cloud that can form stars $(M_*/M_{total})$ can be predicted from the density distribution,
+$f(\rho)$,  as
+the mass fraction of the cloud 
+above a critical density, $\rho_c$;
+\begin{align}
+%M_*/M_{total} = \int_{\rho_c}^\inf f(\rho) d\rho.\label{eqn_mass}
+M_*/M_{total} = \int_{\rho_c}^\infty \rho f(\rho) d\rho. \label{eqn_mass}
+\end{align}
+Similar
+calculations can give predictions for the star formation rate and mass
+distribution of the stellar population. The critical density $\rho_c$ is the density at which gravity
+overtakes the other forces.  
+With this campaign, we will measure the full density distribution, $f(\rho)$, by
+way of the integrated column density distribution using the techniques of (cite
+Federrath). Since $f(\rho)$ is set primarily by the underlying turbulence, our
+proposed campaign will give a direct window on the relationship between the
+properties of a star forming cloud and the stellar population it may form.
+
+It is straightforward to show, analytically and numerically, that supersonic,
+isothermal turbulence will produce a lognormal density distribution
+$f(\rho)$;
+\begin{align}
+f(\rho) = \frac{1}{\rho \sqrt{2 \pi \sigma_{\ln \rho}^2}} e^{-\frac{(\ln \rho-\mu)^2}{2
+\sigma_{\ln \rho}^2}}.\label{eqn_frho}
+\end{align}
+Here $\mu$  and $\sigma_{\ln \rho}$ are the mean and variance of $\ln \rho$. One very useful feature of this distribution is that the width of
+the distribution, $\sigma_{\ln \rho}$, is simply determined by the velocity variance
+\begin{align}
+\sigma_{\ln \rho}^2 = \ln\left( 1 + b (\sigma_v/c_s)^2\right).\label{eqn_sigma},
+\end{align}
+where $\sigma_v$ is the velocity variance and $c_s$ the speed of sound.
+This can be extended to gas that is adiabatic or with external heating and
+cooling sources, which tends to result in a similar distribution, but with excess
+tails to higher or lower density, depending on the compressibility of the gas
+relative to isothermal.  The utility of this relationship, which is well
+established numerically \emph{citations}, is that it predicts the density
+distribution only using the velocity variance.  This has two primary
+consequences.  First, the velocity variance is relatively easy to measure with
+radio telescopes, using Doppler shift of emission lines.  Second, it makes
+prediction of the formation of stars as straight forward as the application of
+Equations \ref{eqn_sigma}, \ref{eqn_frho}, and \ref{eqn_mass}.  
+Our proposed campaign will examine and verify the validity of  Equations
+\ref{eqn_frho} and \ref{eqn_sigma}.
+%\input{stuff}

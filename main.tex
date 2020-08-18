@@ -1,0 +1,26 @@
+%\documentclass[iop]{emulateapj}  % this makes everything look like ApJ
+\documentclass[12pt,preprint]{aastex}  % for e-submission to ApJ
+%\documentclass[12pt,preprint2]{aastex}  % for e-submission to ApJ - two column
+%\documentclass[manuscript]{emulateapj}  % this makes everything look like ApJ
+
+\usepackage{graphicx, natbib, color, bm, amsmath, epsfig}
+
+\citestyle{aa}  % correct formatting for ApJ style files
+
+\newcommand\red[1]{\textcolor{red}{#1}}
+\newcommand\dcc[1]{\emph{ \textcolor{blue}{#1}}}
+\begin{document}
+%\input{title}
+\maketitle
+
+%\tableofcontents
+\input{introduction}
+
+
+
+\bibliographystyle{apj}
+\bibliography{apj-jour,main}  % looks in ms.bib for bibliography info
+
+\end{document}  
+
+

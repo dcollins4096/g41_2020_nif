@@ -1,0 +1,7 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Padoan} \& {Nordlund}(2002)}]{Padoan02}
+{Padoan}, P. \& {Nordlund}, {\AA}. 2002, \apj, 576, 870
+
+\end{thebibliography}
